@@ -530,7 +530,9 @@ section.block{ padding:0 0 56px; }
   .app.nav-open .nav-link{ width:100%; padding:14px 4px; border-bottom:1px solid var(--line); }
   .app.nav-open .header-cta{ display:flex; margin:16px 4px 0; }
 }
-
+@media (min-width:1440px){ 
+   .brand-mark{ width:52px; height:52px; } 
+} 
 @media (max-width:600px){
   .edu-item{ grid-template-columns:1fr; }
   .pub-item{ flex-direction:column; gap:4px; }
